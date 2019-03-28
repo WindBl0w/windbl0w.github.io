@@ -1,0 +1,111 @@
+.bg-1 {
+  background-color: skyblue;
+  color: #ffffff;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.bg-2 {
+  background-color: white;
+  color: black;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.bg-3 {
+  background-color: skyblue;
+  color: white;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+}
+
+.bg-4 {
+  background-color: white;
+  color: black;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.welcome-text {
+  text-align: center;
+  padding: 160px 100px;
+}
+
+.container-fluid {
+
+}
+
+p {
+  font-size: 130%;
+}
+
+.row {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+
+}
+
+button {
+  display: inline-block;
+  width: ;
+  font-weight: ;
+  padding: 10px 25px;
+  color: black;
+  border: 2px solid black;
+  text-align: center;
+  outline: 0;
+  text-decoration: none;
+  transition: 0.2s ease-out, color 0.2s ease-out;
+  background-color: white;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: skyblue;
+  color: white;
+}
+
+/* NAVBAR */
+/* Add a dark background color with a little bit see-through */
+.navbar {
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  font-size: 11px !important;
+  letter-spacing: 4px;
+  opacity: 1;
+}
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+  color: black !important;
+}
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+  color: #fff !important;
+}
+/* The active link */
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color:#29292c !important;
+}
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+/* Dropdown */
+.open .dropdown-toggle {
+  color: #fff ;
+  background-color: #555 !important;
+}
+/* Dropdown links */
+.dropdown-menu li a {
+  color: #000 !important;
+}
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+  background-color: blue !important;
+}
